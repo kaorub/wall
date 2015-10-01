@@ -1,0 +1,10 @@
+{
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-socket-io": "latest",
+    "bootstrap": "~3.3.5"
+  }
+}
