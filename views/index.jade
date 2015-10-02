@@ -1,7 +1,12 @@
 extends layout
 block body
   #wrapper
-    h1 Angular Socket.io IM Demo App
     .content
+    	<!DOCTYPE html>
+
+    <script type="text/javascript" src="../libs/stats.js"></script>
+    <script type="text/javascript" src="../libs/dat.gui.js"></script>
+	div#Stats-output
+	div#WebGL-output
   script(src="//cdnjs.cloudflare.com/ajax/libs/three.js/r72/three.min.js")
-  script(src='js/app.js')
+  script(src='public/js/app.js')
